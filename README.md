@@ -27,7 +27,7 @@ In view_rplidar_a1.launch replace with (close rviz)
   It requires rplidar.launch.
  -->
 <launch>
-  <include file="$(find rplidar_ros)/launch/rplidar.launch" />
+  <include file="$(find rplidar_ros)/launch/rplidar_a1.launch" />
 
   <!-- node name="rviz" pkg="rviz" type="rviz" args="-d $(find rplidar_ros)/rviz/rplidar.rviz" / -->
 </launch>
